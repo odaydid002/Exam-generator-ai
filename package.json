@@ -1,0 +1,27 @@
+{
+  "name": "exam-generator-ai",
+  "version": "1.0.0",
+  "description": "AI-powered platform that automatically generates exams, quizzes, and questions from course content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odaydid002/Exam-generator-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/odaydid002/Exam-generator-ai/issues"
+  },
+  "homepage": "https://github.com/odaydid002/Exam-generator-ai#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
